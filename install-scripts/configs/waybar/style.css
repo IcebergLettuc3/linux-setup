@@ -24,6 +24,8 @@ window#waybar {
 }
 
 #clock,
+#cpu,
+#battery,
 #pulseaudio,
 #network,
 #tray {
@@ -33,4 +35,17 @@ window#waybar {
 
 #network.disconnected {
     background-color: #f53c3c;
+}
+
+#battery.warning {
+    background-color: #ffbe61;
+}
+
+#battery.critical {
+    background-color: #f53c3c;
+}
+
+#cpu {
+    background-color: #2ecc71;
+    color: #000000;
 }
