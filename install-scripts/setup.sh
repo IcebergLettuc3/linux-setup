@@ -39,6 +39,7 @@ sudo apt install -y \
     systemd \
     python3-pip \
     pkg-config \
+    pavucontrol \
     libgtk-3-dev \
     libcairo2-dev \
     libpango1.0-dev
